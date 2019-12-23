@@ -1,4 +1,4 @@
-<html>
+<html> <!--Anasayfa bir resim ,bir tanýtým yazýsý ,iltiþim linkleri  ve kullanýcý formu içerir-->
     <head>
 
         <title>ANASAYFA</title>
@@ -12,16 +12,15 @@
 
             }
     
-            h2
+            h2 /*div ile de yapýlabilir*/ 
             {
                 background-color: #2f4073;
                 padding:10px;
-                text-color:white;
+                /*text-color:white;*/
 
             }
 
-            p
-            {
+            p {
                 text-indent: 10px;
                 font-style: oblique;
                 font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +29,7 @@
                 top: -400px;
             }
 
-            a.link
+            a.link /*linkim stil ve çizgi ayari*/
             {
                     font-weight: bold;
                     color: white;
@@ -38,14 +37,35 @@
                     font-family: Arial, Helvetica, sans-serif;
                     text-decoration: none;
                     vertical-align: baseline;
-
             }
-            iframe
-            {
-                position: relative;
+            a.link1 /* bulunduðunuz sayfanýn linkim stil ve çizgi ayari*/ {
+                font-weight: bold;
+                color: #fbbe02;
+                font-style: oblique;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                vertical-align: baseline;
+            }
 
-                    left: 300px;
-                    top: -400px;
+            iframe /*form ayarlarý*/ {
+                position: relative;
+                left: 300px;
+                top: -400px;
+            }
+            .resimCercevesi /*resimin koyulduðu cercevenin ayarlarý*/
+            {
+                width:200;
+                height:300;
+                  background-color: #2f4073;
+            }
+            .resim /*resimin konum ve büyüklük ayarý*/
+            {
+                width:180;
+                height:280;
+                 
+                position: relative;
+                     left: 10px;
+                     top: 10px;
             }
 
         </style>
@@ -54,8 +74,8 @@
 
     <body>
         <h1><font color="red">ANASAYFA</font></h1>
-        <h2>    <a href="about.html" class="link" >HAKKIMDA</a> <a href="galeri.html" class="link" >GALERÝ</a></h2>
-        <h3><img src="gallery/a.jpg" width=180 height=280 ></h3>	
+        <h2> <a href="index.html" class="link1" title="ÞuanBuradasýnýz">ANASAYFA</a>    <a href="about.html" class="link">HAKKIMDA</a> <a href="galeri.html" class="link">GALERÝ</a></h2>
+        <div class="resimCercevesi"> <img src="gallery/a.jpg" class="resim"  >	</div>  <!--h3 siilindi-->
         <a href=" mailto:alihan.sarac@ogr.sakarya.edu.tr" title="Mail At"><img src="mail.png" width=100 heigth=100></img>
         </a>
         <a href=" https://github.com/saracalihan" title="GitHub"><img src="github.png" width=100 heigth=100></img>
@@ -66,8 +86,7 @@
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJT1S3vtC_fO2B5Knas6fpZ3QzxTCTFozfUiw-srHpWXXTeQ/viewform?embedded=true" 
             width="940" height="300" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
 
-
-
+        <h3>merhaba</h3>
 
     </body>
 </html>
