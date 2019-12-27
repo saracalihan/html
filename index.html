@@ -1,91 +1,98 @@
 <html> <!--Anasayfa bir resim ,bir tanýtým yazýsý ,iltiþim linkleri  ve kullanýcý formu içerir-->
-    <head>
+<head>
+    <link rel="shortcut icon" href="as.png" > <!--title daki  isim ve soyisim baþ harflerini iceren logo -->
+    <title >ANASAYFA</title>
 
-        <title>ANASAYFA</title>
+    <style type="text/css">
 
-        <style type="text/css">
-          
-            h1
-            {
-                text-align:center;
-                font-family:Constantia;
-                color: red;
+        h1 {
+            text-align: center;
+            font-family: Constantia;
+            color: red;
+        }
 
-            }
+        h2 /*div ile de yapýlabilir*/ {
+            background-color: #2f4073;
+            padding: 10px;
+            /*text-color:white;*/
+        }
 
-            h2 /*div ile de yapýlabilir*/ {
-                background-color: #2f4073;
-                padding: 10px;
-                /*text-color:white;*/
-            }
+        p {
+            text-indent: 10px;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            left: 300px;
+            top: -400px;
+        }
 
-            p {
-                text-indent: 10px;
-                font-style: oblique;
-                font-family: Arial, Helvetica, sans-serif;
-                position: relative;
-                left: 300px;
-                top: -400px;
-            }
+        a.link /*linkim stil ve çizgi ayari*/ {
+            font-weight: bold;
+            color: white;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            vertical-align: baseline;
+        }
 
-            a.link /*linkim stil ve çizgi ayari*/
-            {
-                    font-weight: bold;
-                    color: white;
-                    font-style: oblique;
-                    font-family: Arial, Helvetica, sans-serif;
-                    text-decoration: none;
-                    vertical-align: baseline;
-            }
-            a.link1 /* bulunduðunuz sayfanýn linkim stil ve çizgi ayari*/ {
-                font-weight: bold;
-                color: #fbbe02;
-                font-style: oblique;
-                font-family: Arial, Helvetica, sans-serif;
-                text-decoration: none;
-                vertical-align: baseline;
-            }
+        a.link1 /* bulunduðunuz sayfanýn linkim stil ve çizgi ayari*/ {
+            font-weight: bold;
+            color: #fbbe02;
+            font-style: oblique;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            vertical-align: baseline;
+        }
 
-            iframe /*form ayarlarý*/ {
-                position: relative;
-                left: 300px;
-                top: -400px;
-            }
-            .resimCercevesi /*resimin koyulduðu cercevenin ayarlarý*/
-            {
-                width:200;
-                height:300;
-                  background-color: #2f4073;
-            }
-            .resim /*resimin konum ve büyüklük ayarý*/
-            {
-                width:180;
-                height:280;
-                 
-                position: relative;
-                     left: 10px;
-                     top: 10px;
-            }
+        iframe /*form ayarlarý*/ {
+            position: relative;
+            left: 300px;
+            top: -400px;
+        }
 
-        </style>
+        .resimCercevesi /*resimin koyulduðu cercevenin ayarlarý*/ {
+            width: 200;
+            height: 300;
+            background-color: #2f4073;
+        }
 
-    </head>
+        .resim /*resimin konum ve büyüklük ayarý*/ {
+            width: 180;
+            height: 280;
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
 
-    <body>
-        <h1><font color="red">ANASAYFA</font></h1>
+</head>
+
+    <body background="ap.png"> <!--arka plan-->
+
+        <h1><font color="red"><i>ANASAYFA</i></font></h1>
         <h2> <a href="index.html" class="link1" title="ÞuanBuradasýnýz">ANASAYFA</a>    <a href="about.html" class="link">HAKKIMDA</a> <a href="galeri.html" class="link">GALERÝ</a></h2>
-        <div class="resimCercevesi"> <a href="gallery/a.html"> <img src="gallery/a.jpg" class="resim"  > </a> </div>  
-        <a href=" mailto:alihan.sarac@ogr.sakarya.edu.tr" title="Mail At"><img src="mail.png" width=100 heigth=100></img>
+        <div class="resimCercevesi"> <a href="gallery/a.html"> <img src="gallery/a.jpg" class="resim"> </a> </div>
+        <a href=" mailto:alihan.sarac@ogr.sakarya.edu.tr" title="Mail At">
+            <img src="mail.png" width=100 heigth=100></img>
         </a>
-        <a href=" https://github.com/saracalihan" title="GitHub"><img src="github.png" width=100 heigth=100></img>
+        <a href=" https://github.com/saracalihan" title="GitHub">
+            <img src="github.jpg" width=100 heigth=100></img>
         </a>
-        <p><i><b><font size=5>Merhaba, bu sayfa Alihan SARAÇ'ý tanýtmak için yazýlmýþ bir otobiyografi sayfasýdýr.<br/>
-        Ýstek , öneri ve þikayetlerinizi mail yolu ile tarafýmýza ulaþtýrabilirsiniz.<br/>
-        Sayfa üç bölümden oluþmaktadýr bunlar sýrasýyla anasayfa , hakkýmda ve galeridir,</font><b><i></p>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJT1S3vtC_fO2B5Knas6fpZ3QzxTCTFozfUiw-srHpWXXTeQ/viewform?embedded=true" 
-            width="940" height="300" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+        <p>
+            <i>
+                <b>
+                    <font size=5>
+                        Merhaba, bu sayfa Alihan SARAÇ'ý tanýtmak için yazýlmýþ bir otobiyografi sayfasýdýr.<br />
+                        Ýstek , öneri ve þikayetlerinizi mail yolu ile tarafýmýza ulaþtýrabilirsiniz.<br />
+                        Sayfa üç bölümden oluþmaktadýr bunlar sýrasýyla anasayfa , hakkýmda ve galeridir,
+                    </font><b><i>
+        </p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeJT1S3vtC_fO2B5Knas6fpZ3QzxTCTFozfUiw-srHpWXXTeQ/viewform?embedded=true"
+                width="940" height="300" frameborder="0" marginheight="0" marginwidth="0">
+            Yükleniyor…
+        </iframe>
 
-        
+
 
     </body>
 </html>
