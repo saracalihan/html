@@ -1,4 +1,12 @@
-Bu repostory bir kişisel sayfanın html ile kodlanması sonucunda oluşmuştur.
-Başlatmak için index.html 'e tıklamanız yeterlidir.
-İnceleme sonrasında formu doldurmayı lütfen unutmayınız.  # html
-# html
+Bu repostory bir kiÅŸisel sayfanÄ±n ***html*** ile kodlanmasÄ± sonucunda oluÅŸmuÅŸtur
+BaÅŸlatmak iÃ§in _index.html_'e tÄ±klamanÄ±z yeterlidir.
+Ä°nceleme sonrasÄ±nda formu doldurmayÄ± lÃ¼tfen unutmayÄ±nÄ±z.  
+Kod incelemesi yaparak bana destek olabilirsiniz.AÅŸaÄŸÄ±daki adreslerden benimle temasa geÃ§in.
+***
+Alihan SARAÃ‡
+
+E // <saracalihan@gmail.com>
+
+A // [Serdivan/SAKARYA](https://www.google.com/maps/place/Serdivan,+Sakarya/@40.7385578,30.3371387,14z/data=!3m1!4b1!4m5!3m4!1s0x14ccb291c0b72aad:0x6fec49dd674c1680!8m2!3d40.7380582!4d30.3510005)
+
+![html](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/544px-HTML5_logo_resized.svg.png)
