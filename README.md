@@ -1,9 +1,9 @@
 Bu repostory bir kişisel sayfanın ***html*** ile kodlanması sonucunda oluşmuştur
-Başlatmak için _index.html_'e tıklamanız yeterlidir.
+Başlatmak için _[index.html](/index.html)_'i derlemeniz yeterlidir.
 İnceleme sonrasında formu doldurmayı lütfen unutmayınız.  
 Kod incelemesi yaparak bana destek olabilirsiniz.Aşağıdaki adreslerden benimle temasa geçin.
 ***
-Alihan SARAÇ
+_Alihan SARAÇ_
 
 E // <saracalihan@gmail.com>
 
